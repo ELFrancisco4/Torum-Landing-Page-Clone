@@ -1,0 +1,6 @@
+@mixin wordbreak($px) {
+  width: $px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}

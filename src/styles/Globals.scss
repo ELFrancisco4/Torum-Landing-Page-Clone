@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --pink-1: #8728c9;
+  --bg-color: #0e0529;
+  --pink-2: #8529cd;
+  --purple: #15062f;
+  --light-purple: #5534f7;
+  --font-family: acumin-pro, sans-serif;
+  --paragraph-text-color: #2a2750;
+  --header-text-color: #ffffff;
+}
+body {
+  background: linear-gradient(to bottom, var(--purple), var(--pink-2));
+  font-family: var(--font-family);
+}
+p {
+  color: var(--paragraph-text-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--header-text-color);
+}
+
+.button {
+  background: linear-gradient(to left, var(--light-purple), var(--pink-1));
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.active {
+  color: var(--header-text-color);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--header-text-color);
+  opacity: .6;
+}

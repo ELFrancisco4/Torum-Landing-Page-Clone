@@ -1,0 +1,41 @@
+.contact {
+  border-radius: 20px;
+  width: 80%;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: linear-gradient(to left, var(--light-purple), var(--pink-1));
+  padding: 3.5em;
+  div{
+    display: flex;
+    height: 3em;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  p{
+    color: #fff;
+  }
+    
+}
+.email_input{
+    background-color: var(--purple);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 40%;
+    padding: 2em;
+}
+
+.submit_btn{
+    margin-left: -100px;
+    width: 10%;
+}
+
+.email_input, .submit_btn{
+    height: 100%;
+}
